@@ -6,7 +6,7 @@ Output: Strings after swap: a = World and b = Hello
 
 import java.util.*;
 
-public class _4_swap{
+public class _4_swap_strings{
     public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
