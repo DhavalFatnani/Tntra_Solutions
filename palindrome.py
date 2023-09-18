@@ -9,20 +9,17 @@ Output: false
 
 """
 
-# str = "iliy"
-
-# def isPalindrome(s):
-#     return s == s[::-1]
-
-# check = isPalindrome(str)
-# print(check)
-
 class Palindrome:
     """ Class Representing the Palinndrome"""
-    def __init__(self, string) -> None:
+    def __init__(self, string):
         self.string = string
 
     def is_palindrome(self):
         """ Function check if string palindrome or not"""
-        return self.string == self.string[::-1]
+        return (self.string == self.string[::-1])
     
+anna = Palindrome("anna")
+print(anna.is_palindrome())
+
+India = Palindrome("India")
+print(India.is_palindrome())
