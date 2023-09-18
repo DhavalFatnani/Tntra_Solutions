@@ -14,7 +14,7 @@ Minimum is: 2
 
 import java.util.*;
 
-public class big_and_small{
+public class _3_big_and_small{
     public static void main(String[] args) {
         
         //Arrays
