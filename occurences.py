@@ -12,14 +12,16 @@ Problem 1: Program to count occurrences of a given character in a string.
 
 
 class CountOccurances:
+    """ Class representing a Counter"""
     def __init__(self, string, character):
         self.string = string
         self.character = character
         self.count = 0
 
     def counter(self):
-        for i in range(len(self.string)):
-            if self.string[i] == self.character:
+        """ Method to calculate the count """
+        for i, _str in enumerate(self.string):
+            if _str == self.character:
                 self.count += 1
 
         return f"Character '{self.character}' in {self.string} occurs {self.count} times."
